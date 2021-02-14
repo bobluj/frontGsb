@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="visiteur2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo"><h1>GSB</h1></div>
+    <navbar>
+        <ul id="mainNav">
+            <div id="nav_gauche">
+            <li><img class="icon_menu"src="img/search.svg" alt="bouton recherche" /></li>
+            <li> <input id ="search" type="text" placeholder="Recherche.."></li>
+            </div>
+            
+            <div id="nav_droite">
+                <p><b>Eric Dampierre</b><br>
+                           <span id="employeeType">visiteur</span>
+            </p> 
+                
+            <img class="icon_menu"src="img/Fichier3.svg" alt="ma photo">
+            
+            
+               <img  class ="icon_menu"id="fleche" src="img/arrow.svg">
+               <div>
+                    <ul class="nom">
+                        <li>Nom</li>
+                        <li>Nom</li>
+                        <li>Nom</li>
+                        <li>Nom</li>
+                        <li>Nom</li>
+                    </ul>
+                </div>  
+                  
+                
+            
+            
+            </div>
+            <div class="vertical"></div>
+
+
+            <div id = "icone_droite">
+                <img class="icon_menu" id="bell" src="img/bell.svg">
+                <img  class= "icon_menu"id="fleche" src="img/logout.svg">
+
+            </div>
+
+        </ul>
+    </navbar>
+    <navbar id="latBar" class="latBar">
+        <ul id="navLat">
+            <li><a href=""> <img class="icon_menu"src="img/folder.svg" alt="bouton dossier" /></a></li>
+            <li><a href=""><img class="icon_menu" src="img/file.svg" alt="bouton fichier" /></a></li>
+        </ul>
+    </navbar>
+    <div class ="boutonAjouterRapport">
+    </div>
+    <div class ="panelRapport">
+
+
+
+
+        <div class = "rapport">
+            <div class="inGridTopLeft">
+                <img class ="icon_order" src="img/folder.svg" alt="">
+                <h4>Rapports</h4>
+            </div>
+            <div class= "inGridTopRight">
+                <p>Descendant</p>
+                <img class= "icon_order" src="img/arrow.svg" alt="">
+            </div>
+            <div class="inGridBottomLeft">
+                <p>Exemple de rapport.</p>
+                            
+            </div>
+            <div class="inGridBottomRight">
+                <ul class="toggleRapports">
+                    <li><img class="icon_toggle "src="img/minus.svg">
+                        <img class="icon_toggle"src="img/edit.svg"></li>
+                </ul>
+            </div>
+        </div>
+                            
+
+        <div class ="readEditRapport">
+            <div class="editRapport">
+                <div class="inGridTopLeft">
+                    <img class ="icon_order" src="img/folder.svg" alt="">
+                    <h4>Editer Rapport</h4>
+                </div>
+                <div class= "">
+                </div>
+                <div class="">
+                    <form action="">
+                        <input value="122334" type="text" disabled>
+                        <input type="date">
+                        <input type="text">
+                        <input type="text">
+                        <input class ="save_button" type="submit">
+                    </form>                
+                </div>
+                <div class="inGridBottomRight">    
+                </div>  
+            </div>
+            <div class ="readRapport">
+                <div class="inGridTopLeft">
+                    <img class ="icon_order" src="img/folder.svg" alt="">
+                    <h4>Lire Rapport</h4>
+                </div>
+                <div class= "inGridTopRight">
+                </div>
+                <div class="inGridBottomLeft">
+                                
+                </div>
+                <div class="inGridBottomRight">
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

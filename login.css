@@ -1,0 +1,272 @@
+* {
+    margin : 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.background {
+    width: 100vw;
+     height: 100vh;
+     background: rgba(124,156,156,1);
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  .recjaune {
+    width: 50vw;
+    height: 63vh;
+    background: rgba(245,185,72,1);
+    position: absolute;
+    top: 12%;
+    left: 38%;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .recbleu {
+    width: 28vw;
+    height: 63vh;
+    background: rgba(45,85,94,1);
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+  }
+  h1{
+    padding-top: 10vh;
+    color: rgb(216, 214, 214);
+  }
+  h2{
+    display:none;
+}
+  .enteteform {
+    width: 32vw;
+    height: 9vh;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: absolute;
+    top: 16vh;
+    left: 48.5%;
+    border-radius: 6px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .enteteformleft {
+    color: rgba(241,224,173,1);
+    position: absolute;
+    top: 1.5vh;
+    left: 10px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 20px;
+  }
+  .enteteformright {
+    color: rgba(224,224,224,1);
+    position: absolute;
+    top: 1.5vh;
+    left: 22vw;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 20px;
+  }
+
+
+.box{
+   width : 28vw;
+   height: 35vh;
+   padding : 30px;
+   position : absolute;
+
+   top : 26vh;
+   left:48.5vw;
+   background: rgba(255,255,255,1);
+   border-radius: 6px;
+   text-align: center;
+   overflow: hidden;
+}
+
+
+
+.box input[type="text"],.box input[type="password"]{
+    border : 0;
+    background : none;
+    display : block;
+    margin: 20px auto;
+    font-size: 18px;
+    border:1px solid rgba(208,208,208,1);
+    padding : 30px auto;
+    height: 7vh;
+    width:28vw;
+    outline : none;
+    color: rgba(208,208,208,1);
+    border-radius: 4px;
+} 
+
+.bouton{
+        width: 25vw;
+        height: 50px;
+        background: rgba(42,82,91,1);
+        font-size: 23px;
+        color: rgba(255,255,255,1);
+border-radius: 5px;
+        overflow: hidden;
+}
+.bouton:hover{
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+@media only screen and (max-width: 800px) {
+h1{
+    writing-mode:sideways-lr;
+}
+h2{
+    display:none;
+}
+.enteteformleft {
+    color: rgba(241,224,173,1);
+    position: absolute;
+    top: 2vh;
+    left: 10px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 17px;
+  }
+  .enteteformright {
+    color: rgba(224,224,224,1);
+    position: absolute;
+    top: 0.5vh;
+    left: 22vw;
+    font-family: Roboto;
+    font-weight: Light;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin : 0;
+        padding: 0;
+        font-family: sans-serif;
+        overflow-x: hidden;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    h1{
+        display: none;
+    }
+    h2{
+        display:block;
+        writing-mode:sideways-lr;
+        color: rgb(219, 216, 216);
+        padding-top: 10vh;
+    }
+    
+    .background {
+        width: 100vw;
+         height: 100vh;
+         background: rgba(124,156,156,1);
+        position: relative;
+        top: 0px;
+        left: 0px;
+      }
+    
+      .recjaune {
+        width: 85vw;
+        height: 95vh;
+        background: rgba(245,185,72,1);
+        position: absolute;
+        top: 3%;
+        left: 12%;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+    
+      .recbleu {
+        width: 10vw;
+        height: 95vh;
+        background: rgba(45,85,94,1);
+        position: absolute;
+        top: 3%;
+        left: 3%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        overflow: hidden;
+      }
+      .enteteform {
+        width: 72.3vw;
+        height: 7vh;
+        background: rgb(255, 255, 255);
+        opacity: 1;
+        position: absolute;
+        top: 5vh;
+        left: 14%;
+        border-radius: 6px;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+      }
+      .enteteformleft {
+        display:block;
+        color: rgba(241,224,173,1);
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-family: Roboto;
+        font-weight: Bold;
+        font-size: 17px;
+      }
+      .enteteformright {
+        color: rgba(224,224,224,1);
+        position: absolute;
+        top: 7px;
+        left: 53vw;
+        font-family: Roboto;
+        font-weight: Light;
+        font-size: 15px;
+      }
+    
+    
+    .box{
+       width : 64vw;
+       height: 65vh;
+       padding : 30px;
+       position : absolute;
+    
+       top : 13vh;
+       left:14vw;
+       background: rgba(255,255,255,1);
+       border-radius: 6px;
+       text-align: left;
+       overflow: hidden;
+    }
+    
+    .box input[type="text"],.box input[type="password"]{
+        border : 0;
+        background : none;
+        display : block;
+        margin: 45px -15px;
+        font-size: 18px;
+        border:1px solid rgba(208,208,208,1);
+        padding : 14px 10px;
+        width:65vw;
+        outline : none;
+        color: rgba(208,208,208,1);
+        border-radius: 4px;
+    } 
+    .bouton{
+            width: 30vh;
+            height: 65px;
+            margin-left: 5px;
+            margin-top:10vh;
+            background: rgba(42,82,91,1);
+            font-size: 18px;
+            color: rgba(255,255,255,1);
+    border-radius: 5px;
+            overflow: hidden;
+    }
+}
+
