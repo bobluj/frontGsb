@@ -1,7 +1,7 @@
 let p = document.querySelector("#fleche")
 let nom = document.querySelector(".nom");
 let rapport = document.querySelector("#listRapports");
-const url = "http://localhost:90/gsb/visiteur/3";
+const url = "http://localhost:90/gsb/visiteur/";
 
 
 p.addEventListener("click", (evt) => {
@@ -24,15 +24,14 @@ fetch(url)                          // Le fetch va chercher l'instruction
     .then((data) => {
         console.log(data);                 // récupère le tableau d'objets
         // Générer le visuel
-        data.rapports.forEach(element => {
+        data.forEach(element => {
             //   element.rapports.forEach(details => {
 
             rapport.insertAdjacentHTML('beforeEnd',
                 `<li>
                     <p>${element.id} </p>
-                    <p>${element.date}</p>
-                    <p>${element.bilan}</p>
-                    <p>${element.motif}</p>                    
+                    <p>${element.nom}</p>
+                    <p>${element.dateEmbauche}</p>                    
                 </li >`);
             //});
         });
